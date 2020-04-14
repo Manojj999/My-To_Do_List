@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+body {
+  text-align: center;
+  font-family: 'Raleway';
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, rgb(83, 43, 204), rgb(239, 16, 95));;
+}
+
+body * {
+padding: .5rem;
+}
+
+#enter {
+margin: 1em;
+}
+
+ul {
+list-style: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
+h2 {
+  font-family: 'Kaushan Script', cursive;
+  
+}
+button{
+  border-radius: 30px;
+  outline: none;
+}
